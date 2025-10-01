@@ -6,5 +6,6 @@ capital = float(input('El capital es de'))
 tiempo = float(input('que tiene un tiempo de'))
 interes = int(input('Cuanto interes tiene tu inversion'))
 
-final = (interes / 100 * capital * tiempo)
-print('Tu beneficio es de', final)
+capital_final = capital * (1 + interes / 100) **tiempo
+redondeo = round(capital_final, 2)
+print('Tu beneficio es de', capital_final)
