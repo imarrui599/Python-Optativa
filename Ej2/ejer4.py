@@ -4,7 +4,9 @@ extensión tiene dos dígitos (por ejemplo +34-913724710-56). Escribir un
 programa que pregunte por un número de teléfono con este formato y muestre por
 pantalla el número de teléfono sin el prefijo y la extensión.'''
 
-telefono = input("Introduzca su numero de telefono con el formato +xx-xxxxxxxxxxx-xx: ")
-numero = telefono.split('-'[1])
+telefono = input("Introduzca su numero de telefono con el formato +xx-xxxxxxxxx: ")
+numero = telefono.split('-')
 
 print(numero)
+telefonosimp = numero[1]
+print(telefonosimp)
