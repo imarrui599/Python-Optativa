@@ -2,7 +2,7 @@
 variable, pregunte al usuario por la contraseña hasta que introduzca la contraseña
 correcta.'''
 
-contraseña = "jethoven"
+contraseña = "jetoben"
 entrada = ""
 
 while entrada != contraseña:
