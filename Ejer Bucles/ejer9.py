@@ -6,6 +6,6 @@ contraseña = "jethoven"
 entrada = ""
 
 while entrada != contraseña:
-    entrada = input("Cual es la contraseña: ")
+    entrada = input("Introduce la contraseña: ")
 
 print("contraseña correcta")
