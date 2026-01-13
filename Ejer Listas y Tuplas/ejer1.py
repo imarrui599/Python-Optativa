@@ -5,3 +5,4 @@ pantalla.'''
 asignaturas = ["Matematicas" , "Fisica" , "Quimica" , "Historia" , "Lengua"]
 for asignatura in asignaturas:
     print(asignatura)
+    
